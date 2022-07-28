@@ -137,6 +137,21 @@ button:active {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo-div > span {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7vh;
+    width: 13vh;
+    height: fit-content;
+    line-height: 3vh;
+}
+
+#logo-div > span > span {
+    font-size: 43%;
 }
 
 #logo-div > img {
