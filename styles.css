@@ -53,6 +53,45 @@ input, label {
     display: block;
 }
 
+#button-section {
+    padding: 40px;
+}
+
+button {
+    display: block;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 0.7rem 2rem;
+    font-weight: 500;
+    border: 0;
+    border: 2px solid rgb(47, 72, 146);
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 0px #C9C9C9; 
+    box-shadow: 5px 5px 15px 0px #C9C9C9;
+    background-color: rgb(47, 72, 146);
+    color: white;
+    box-sizing: border-box;
+}
+
+button:hover {
+    border: white 2px solid;
+}
+
+button:active {
+    border: white 2px solid;
+    background-color: rgb(43, 66, 136);
+}
+
+#button-section > span {
+    font-family: 'Poppins', sans-serif;
+}
+
+#button-section > span > a {
+    color: rgb(47, 72, 146);
+    text-decoration-line: none;
+}
+
 #logo-div {
     position: absolute;
     top: 20%;
