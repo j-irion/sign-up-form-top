@@ -8,6 +8,19 @@ body {
     position: relative;
 }
 
+#section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#heading {
+    height: 33%;
+}
+
+form {
+    height: 33%;
+}
+
 #logo-div {
     position: absolute;
     top: 20%;
