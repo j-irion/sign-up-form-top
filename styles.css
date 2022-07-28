@@ -34,6 +34,8 @@ form {
     background-color: white;
     padding: 10px 40px;
     box-sizing: border-box;
+    -webkit-box-shadow: 0px 5px 15px 0px #9B9B9B; 
+    box-shadow: 0px 5px 15px 0px #9B9B9B;
 }
 
 #form-content {
