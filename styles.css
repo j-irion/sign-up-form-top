@@ -6,6 +6,10 @@ body {
     display: flex;
 }
 
+em {
+    font-style: italic;
+}
+
 #section-1 {
     position: relative;
 }
@@ -20,6 +24,9 @@ body {
     height: 33%;
     padding: 40px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 form {
