@@ -1,8 +1,23 @@
 body {
     margin: 0;
+    display: flex;
+}
+
+#section-1 {
+    position: relative;
+}
+
+#src {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 #background-img {
     height: 100vh;
     width: auto;
 }
+  
