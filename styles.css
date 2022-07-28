@@ -11,6 +11,7 @@ body {
 #section-2 {
     display: flex;
     flex-direction: column;
+    padding: 40px;
 }
 
 #heading {
@@ -19,6 +20,15 @@ body {
 
 form {
     height: 33%;
+}
+
+#form-content {
+    display: flex;
+    gap: 60px;
+}
+
+input, label {
+    display: block;
 }
 
 #logo-div {
