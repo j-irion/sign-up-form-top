@@ -1,4 +1,5 @@
 body {
+    height: 100vh;
     margin: 0;
     display: flex;
 }
@@ -7,7 +8,22 @@ body {
     position: relative;
 }
 
-#src {
+#logo-div {
+    position: absolute;
+    top: 150px;
+    background-color: rgba(0, 0, 0, 0.403);
+    width: inherit;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo-div > img {
+    height: 100%;
+}
+
+.src {
     position: absolute;
     left: 0;
     right: 0;
@@ -17,7 +33,7 @@ body {
     color: rgb(229, 229, 229);
 }
 
-#src > a {
+.src > a {
     color: inherit;
 }
 
