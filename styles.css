@@ -49,20 +49,19 @@ form > h1 {
 }
 
 #form-content {
+    width: 600px;
+}
+
+#form-content > div {
     font-size: 12px;
+    float: left;
 }
 
-#form-content {
-    display: flex;
-    gap: 60px;
+#form-content > div.left-column {
+    margin-right: 60px;
 }
 
-.form-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-column > input {
+#form-content > div > input {
     height: 1.5rem;
     width: 15rem;
     margin-bottom: 20px;
@@ -70,7 +69,7 @@ form > h1 {
     border: 1px rgb(218, 218, 218) solid;
 }
 
-.form-column > input:focus {
+#form-content > div > input:focus {
     border: 1px solid rgb(141, 190, 225);
     outline: none !important;
     -webkit-box-shadow: 5px 5px 15px 0px #C9C9C9; 
